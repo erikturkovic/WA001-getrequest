@@ -1,8 +1,7 @@
 <template>
   <div id="app">
     <nav>
-      <router-link to="/">Commitovi</router-link> |
-      <router-link to="/about">Detalji</router-link>
+      <router-link to="/">Commitovi</router-link>
     </nav>
     <router-view />
   </div>

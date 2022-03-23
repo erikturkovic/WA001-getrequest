@@ -4,9 +4,23 @@
       <router-link to="/">Commitovi</router-link> |
       <router-link to="/about">Detalji</router-link>
     </nav>
-    <router-view/>
+    <router-view />
   </div>
 </template>
+
+<script>
+export default {
+  components: {
+
+  },
+  data() {
+    return {};
+  },
+  methods: {},
+};
+</script>
+
+
 
 <style lang="scss">
 #app {
